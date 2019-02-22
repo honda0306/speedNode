@@ -1,3 +1,6 @@
+# About this Project
+This project was copied from the Wes Bos 'Learn Node' course. I copied the files into a new repo so I could redesign the client-side templates and change the data configurations to try new concepts that I have been studying. 
+
 ## What is this?
 
 Just you wait folks!

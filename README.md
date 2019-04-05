@@ -1,3 +1,6 @@
+### Personal Note:
+If you are having trouble accessing Mongo Compass, remember to double check the port and credentials that you are using to login. It makes a big difference!
+
 # About this Project
 This project was copied from the Wes Bos 'Learn Node' course. I copied the files into a new repo so I could redesign the client-side templates and change the data configurations to try new concepts that I have been studying. 
 

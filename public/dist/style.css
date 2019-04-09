@@ -716,12 +716,13 @@ label {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: -1.25em 0 0 -1.25em; }
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
 
 .store {
   background: white;
-  margin: 1.25em 0 0 1.25em;
-  width: calc(33.3333% - 1.25em);
+  margin: 10px 0;
+  width: 30%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.05); }
   .store--wide {
     width: 100%; }
@@ -732,7 +733,7 @@ label {
       margin-bottom: 0; }
   @media all and (max-width: 850px) {
     .store {
-      width: calc(50% - 1.25em); } }
+      width: 48%; } }
   @media all and (max-width: 550px) {
     .store {
       width: 100%; } }

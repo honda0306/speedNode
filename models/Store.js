@@ -5,8 +5,8 @@ const slug = require('slugs');
 const storeSchema = new mongoose.Schema({
     name: {
         type: String,
-        trim: true, 
-        required: 'Please enter a store name.'
+        trim: true,
+        required: 'Please enter a store name!'
     },
     slug: String,
     description: {
@@ -16,10 +16,10 @@ const storeSchema = new mongoose.Schema({
     tags: [String]
 });
 
-storeSchema.pre('save', function(next){
+storeSchema.pre('save', function(next) {
     if (!this.isModified('name')) {
-        next();
-        return;
+        next(); // skip it
+        return; // stop this function from running
     }
     this.slug = slug(this.name);
     next();

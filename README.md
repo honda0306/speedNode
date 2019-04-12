@@ -1,4 +1,5 @@
 ### Personal Note:
+
 If you are having trouble accessing Mongo Compass, remember to double check the port and credentials that you are using to login. It makes a big difference!
 
 # About this Project
